@@ -1,0 +1,397 @@
+@font-face{
+    font-family: 'Winter Insight';
+    src: url(../Fonts/WinterInsight.ttf);
+}
+@font-face{
+    font-family: 'Winkle Regular';
+    src: url(../Fonts/Winkle-Regular.ttf);
+}
+@font-face{
+
+    font-family: 'Emirald Script';
+    src: url(../Fonts/EmiraldScript.ttf);
+}
+@font-face{
+    font-family: 'Please write me a song';
+    src: url(../Fonts/Please-write-me-a-song.ttf);
+}
+@font-face{
+    font-family: 'Salty Cheese';
+    src: url(../Fonts/Salty Cheese.ttf);
+}
+
+
+
+
+body{
+    font-family: 'Please write me a song', sans-serif;
+}
+
+
+
+
+nav{
+    font-family: 'Winter Insight', sans-serif;
+    width: 100%;
+    height: 60px;
+    background-image: url(../IMG/whitebg.png);
+    border: solid #a9aede;
+}
+
+.logo{
+    line-height: 150%;
+    padding-left: 5%;
+    float: left;
+    font-size: 300%;
+    color: darkblue;
+}
+
+.menu {
+    line-height: 150%;
+    padding-left: 46%;
+    font-size: 300%;
+    color: darkblue;
+}
+
+.menu li{
+    float: left;
+    margin-right: 5%;
+    text-transform: uppercase;
+}
+
+.up{
+    width: 100%;
+    height: 500px;
+    background-color: #ededed;
+    border: solid #a9aede;
+    font-family: 'Winkle Regular', sans-serif;
+    text-align: center;
+}
+
+.up h1{
+    line-height: 80px;
+    font-size: 500%;
+}
+
+.up h2{
+    height: 70px;
+}
+
+.up h4{
+    font-size: 300%;
+}
+
+.buttons input[type=submit] {
+color: #000000;
+background-color: #FFFFFF;
+border: 1px solid #aaa;
+    font-size: 300%;
+    border-radius: 10%;
+}
+
+.buttons input[type=submit]:hover {
+color: #fff;
+background-color: #aaa;
+    font-size: 300%;
+}
+
+
+
+
+.aboutme {
+    width: 100%;
+    height: 500px;
+    background-color: white;
+    border: solid #a9aede;
+    text-align: center;
+}
+.aboutme h3{
+    height: 10%;
+}
+.aboutme h2{
+    line-height: 80px;
+    font-size: 500%;
+}
+.aboutme h4{
+    line-height: 40px;
+    font-size: 200%;
+}
+.aboutme input[type=submit] {
+color: #000000;
+background-color: #FFFFFF;
+border: 1px solid #aaa;
+    font-size: 300%;
+    border-radius: 10%;
+}
+
+.aboutme input[type=submit]:hover {
+color: #fff;
+background-color: #aaa;
+    font-size: 300%;
+}
+
+
+
+.skills{
+    width: 100%;
+    height: 500px;
+    background-color: #ededed;
+    border: solid #a9aede;
+    text-align: center;
+}
+.skills h2{
+    line-height: 80px;
+    font-size: 500%;
+}
+.skills h5{
+    height: 10%;
+}
+.sphotos li{
+    float: left;
+    border: 1px solid #fff;
+    border-radius: 10%;
+    width: 100px;
+    height: 100px;
+    margin-left: 9%;
+    margin-right: 9%;
+    background: white;
+}
+.stext li{
+    font-size: 100%;
+    float: left;
+    margin-right: 1.5%;
+    text-transform: uppercase;
+    line-height: 30px;
+}
+
+
+
+.cases{
+    width: 100%;
+    height: 1000px;
+    background-color: white;
+    border: solid #a9aede;
+    text-align: center;
+}
+}
+.cases h5{
+    height: 10%;
+}
+.cases h2{
+    line-height: 80px;
+    font-size: 500%;
+}
+.cases h4{
+    line-height: 80px;
+    font-size: 200%;
+}
+.cases img{
+    outline: 10px solid #ededed;
+}
+.tablecas h4{
+    line-height: 30px;
+    font-size: 150%;
+}
+.tablecas h3{
+    line-height: 30px;
+    font-size: 250%;
+}
+.tablecas input[type=submit] {
+color: #000000;
+background-color: #FFFFFF;
+border: 1px solid #aaa;
+    font-size: 200%;
+    border-radius: 10%;
+}
+
+.tablecas input[type=submit]:hover {
+color: #fff;
+background-color: #aaa;
+    font-size: 200%;
+}
+
+
+
+
+.price{
+    width: 100%;
+    height: 300px;
+    background-color: white;
+    border: solid #a9aede;
+    text-align: center;
+}
+.price h5{
+    height: 5%;
+}
+.price h2{
+    line-height: 80px;
+    font-size: 300%;
+}
+.tabpr table{
+    width: 100%;
+}
+.tabpr{
+    line-height: 50px;
+    font-size: 200%;
+}
+.endpr{
+    margin-left: 2%;
+    line-height: 30px;
+    font-size: 150%;
+}
+.tabpr select {
+    display: block;
+    width: 50%; /* от ширины блока div */
+    padding: .75rem 2.5rem .75rem 1rem;/* отступы от текста до рамки */
+    background: none; /* убираем фон */
+    border: 1px solid #ccc; /* рамка */
+    border-radius: 3px;/* скругление полей формы */
+    -webkit-appearance: none;/* Chrome */
+    -moz-appearance: none;/* Firefox */
+    appearance: none;/* убираем дефолнтные стрелочки */
+    font-family: inherit;/* наследует от родителя */
+    font-size: 80%;
+    color: #444;
+    margin-left: 25%;
+}
+
+
+
+.stat{
+    width: 100%;
+    height: 300px;
+    background-color: #ededed;
+    border: solid #a9aede;
+    text-align: center;
+}
+.stat h5{
+    height: 5%;
+}
+.stat h2{
+    line-height: 80px;
+    font-size: 300%;
+}
+.rphotos li{
+    float: left;
+    border: 1px solid #fff;
+    border-radius: 10%;
+    width: 80px;
+    height: 80px;
+    margin-left: 9.5%;
+    margin-right: 9.5%;
+    background: white;
+}
+.rtext li{
+    font-size: 120%;
+    float: left;
+    margin-right: 1.5%;
+    text-transform: uppercase;
+    line-height: 30px;
+    margin-left: 8.8%;
+    margin-right: 8.8%;
+}
+
+
+
+
+.joe{
+    width: 100%;
+    height: 335px;
+    background-color: white;
+    border: solid #a9aede;
+    text-align: center;
+}
+.joe h5{
+    height: 5%;
+}
+.joe h2{
+    line-height: 80px;
+    font-size: 300%;
+}
+.joe h3{
+    line-height: 30px;
+    font-size: 150%;
+}
+
+
+
+.contact{
+    width: 100%;
+    height: 800px;
+    background-image: url(../IMG/antibluebg.png);
+    border: solid #a9aede;
+    text-align: center;
+
+}
+.contacts h5{
+    height: 5%;
+}
+.contacts h2{
+    line-height: 80px;
+    font-size: 300%;
+}
+.contacts h3{
+    line-height: 30px;
+    font-size: 200%;
+}
+.cphotos li{
+    float: left;
+    border: 1px solid #fff;
+    border-radius: 10%;
+    width: 100px;
+    height: 100px;
+    margin-left: 13%;
+    margin-right: 13%;
+    background: white;
+}
+.ctext li{
+    font-size: 100%;
+    float: left;
+    margin-right: 1.5%;
+    text-transform: uppercase;
+    line-height: 30px;
+    margin-left: 12%;
+    margin-right: 7.5%;
+}
+.connect{
+    float: left;
+    width: 100%;
+    height: 500px;
+    text-align: center;
+}
+.connect h5{
+    height: 5%;
+}
+.connect h3{
+    line-height: 80px;
+    font-size: 300%;
+}
+.connect table{
+        margin-left: 21%;
+}
+input[type="text"] {
+   border: 1px solid №ссс;
+   border-radius: 5px;
+}
+textarea {
+    padding: 10px;
+    max-width: 100%;
+    line-height: 1.5;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    box-shadow: 1px 1px 1px #999;
+    font-size: .8rem;
+    letter-spacing: 1px;
+}
+.connect input[type=submit] {
+color: #000000;
+background-color: #FFFFFF;
+border: 1px solid #aaa;
+    font-size: 250%;
+    border-radius: 10%;
+}
+.connect input[type=submit]:hover {
+color: #fff;
+background-color: #aaa;
+    font-size: 250%;
+}
